@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    margin:0 9px;
+    background-color: whitesmoke;
+}
+.header{
+    height: 50px;
+    background-color: blue;
+    border: 5px solid darkblue;
+    text-align: center;
+    font-weight: bold;
+    
+}
+h1{
+  font-weight: normal;
+  padding: 10px;  
+}
+.path{
+    height: 100px;
+    background-color: pink;
+    border: 5px solid deeppink;
+    text-align: center;
+    font-weight: normal;
+}
+.doc{
+    height: 50px;
+    background-color: lightyellow;
+    border: 5px solid yellow;
+    text-align: center;
+    font-weight: bold;
+}
+.wrapper{
+    overflow: hidden;
+    
+}
+.box1, .box3{
+    height:400px;
+    width: 24%;
+    text-align: center;
+}
+.box1{
+    float: left;
+    background-color: pink;
+    border: 5px solid red;
+}
+.box3{
+    float: right;
+    background-color: lightgreen;
+    border: 5px solid green;
+}
+.box1 p, .box3 p{
+    padding: 115px;
+    font-weight: bold;
+}
+.grid{
+	display:grid;
+	width:50%;
+	height:400px;
+	float:left;
+        text-align: center;
+}
+
+.grid div:nth-child(even){
+	background-color:grey;
+        border: 5px solid black;
+	width:100%;
+	height:300px;
+        text-align: center;
+}
+.grid div:nth-child(odd){
+	background-color:skyblue;
+        border: 5px solid blueviolet;
+	width:100%;
+	height:90px;
+}
+.grid div:nth-child(even) p{
+    padding: 125px;
+    font-weight: bold;
+}
+.grid div:nth-child(odd) p{
+    padding: 10px;
+    font-weight: bold;
+}
+.bottom{
+    height: 50px;
+    background-color: springgreen;
+    border: 5px solid skyblue;
+    text-align: center;
+    
+}
+.bottom p{
+    font-weight: bold;
+    padding-top: 10px;
+}
+.bottom p span{
+    font-weight: normal;
+     padding-left: 20px;
+}
+
+.footer{
+    clear:both;
+    height: 50px;
+    background-color: lightsalmon;
+    border: 5px solid orange;
+}
+.footer p{
+    text-align: center;
+    font-weight: bold;
+    padding:10px;
+}
